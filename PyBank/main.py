@@ -55,7 +55,7 @@ print("Average Change: $", averagechange)
 print('Greatest Increase in Profits: ',greatestincreasedate, '( $', greatestincreasechange, ")")
 print('Greatest Decrease in Profits: ',greatestdecreasedate, '( $', greatestdecreasechange, ")")
 
-
+#writing our financial analysis output from the terminal into a text file
 Financial_analysis = os.path.join("Analysis","analysis.txt")
 with open(Financial_analysis,"w",) as f:
    
